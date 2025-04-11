@@ -17,6 +17,9 @@
     <Filter Include="初期勢">
       <UniqueIdentifier>{cbb2d353-9062-4181-bb76-5a58a354ae99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Matrix4x4">
+      <UniqueIdentifier>{8ebdea2e-b308-41bf-bdef-64aa7966e784}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -40,6 +43,9 @@
     </ClCompile>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
       <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Matrix4x4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +129,9 @@
     </ClInclude>
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector3.h">
       <Filter>初期勢</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Matrix4x4</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
