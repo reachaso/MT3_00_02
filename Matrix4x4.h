@@ -21,4 +21,4 @@ Matrix4x4 Transpose(const Matrix4x4& m);
 Matrix4x4 MakeIdentity4x4();
 
 //描画関数
-void MatrixScreenPrintf(int x, int y, const Matrix4x4& m);
+void MatrixScreenPrintf(int x, int y, const Matrix4x4& m, const char* label);
